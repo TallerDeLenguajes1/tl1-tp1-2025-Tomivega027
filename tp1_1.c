@@ -7,11 +7,11 @@ int main(){
     int numero = 10;
     int *pnumero = &numero;
 
-    printf("El contenido del puntero: %d\n", *pnumero);
-    printf("La direccion de memoria almacenada por el puntero: %p\n",pnumero);
-    printf("La direccion de memoria de la variable: %p\n", numero);
-    printf("La direccion de memoria del puntero: %p\n", &pnumero);
-    printf("5) El tamaño de memoria utilizado por la variable: %zu bytes\n", sizeof(numero));
+ printf("Contenido del puntero: %d\n", *pnumero);
+ printf("Direccion de memoria almacenada por el puntero: %p\n", pnumero);
+ printf("Direccion de memoria de la variable: %p\n", &numero);
+ printf("Direccion de memoria del puntero: %p\n", &pnumero);
+ printf("Tamaño de memoria utilizado por la variable: %zu bytes\n", sizeof(numero));
     
 
 
