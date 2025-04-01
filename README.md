@@ -6,6 +6,7 @@
 
 #### ¿Como configuraria el archivo .gitignore?:
     La configuracion de un archivo .gitignore consta de crear literalmente un archivo .gitignore de manera manual o usando git bash con el comando "touch" , como en este caso nuestro  archivo se llamaria .gitgnore , en git bash pondriamos lo siguiente : **touch .gitignore** .
+    
 
 
     
